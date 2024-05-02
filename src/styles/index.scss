@@ -1,7 +1,7 @@
 // Base
 @import './base/reset.scss'; // reset
 @import './base/fonts.scss'; // font
-@import './base/app.scss';
+@import './base//global.scss'; // body 설정 등
 
 // Components
 @import './components/nav.scss';
