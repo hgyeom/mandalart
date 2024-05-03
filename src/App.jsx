@@ -1,12 +1,11 @@
 import Nav from './components/Nav/Nav';
+import Mandalart from './components/Mandalart/Mandalart';
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <section className="mandalart">
-        <></>
-      </section>
+      <Mandalart />
     </div>
   );
 }
