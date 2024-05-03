@@ -1,3 +1,3 @@
 # Mandalart
 
-CRA, node-sass
+CRA, node-sass, jo-tai
