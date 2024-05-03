@@ -1,0 +1,58 @@
+.goals {
+  display: flex;
+}
+
+.goalWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.hide-input {
+  display: flex; /* Flexbox 사용 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+}
+.goal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: none;
+  border: none;
+  text-align: center; /* 텍스트를 가운데로 정렬 */
+
+  width: 4.3rem;
+  height: 4.3rem;
+  padding: 1rem;
+}
+
+.goal:focus {
+  outline: 0;
+}
+
+.first-first,
+.second-first,
+.third-first {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.first-second,
+.second-second,
+.third-second,
+.first-third,
+.second-third,
+.third-third {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.third-first,
+.third-second,
+.third-third {
+  border-bottom: 1px solid black;
+}
+
+.second-second {
+  color: black;
+  font-size: 1.3rem;
+}
