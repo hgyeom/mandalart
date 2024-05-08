@@ -1,8 +1,7 @@
-// reset.scss에서 설정해야함.
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
-body {
+body,
+textarea {
   font-family: 'Noto Sans KR', sans-serif;
 }
 // * {

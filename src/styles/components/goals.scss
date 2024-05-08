@@ -3,21 +3,26 @@
 }
 
 .goalWrapper {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
 }
-.hide-input {
-  display: flex; /* Flexbox 사용 */
-  justify-content: center; /* 수평 중앙 정렬 */
-  align-items: center; /* 수직 중앙 정렬 */
+
+.center {
+  font-size: 0.8rem;
+  font-weight: bold;
 }
+
+.subGoal {
+  font-size: 1rem;
+}
+
 .goal {
   display: flex;
   justify-content: center;
   align-items: center;
   resize: none;
   border: none;
-  text-align: center; /* 텍스트를 가운데로 정렬 */
+  text-align: center;
 
   width: 4.3rem;
   height: 4.3rem;
