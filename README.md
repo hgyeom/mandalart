@@ -1,3 +1,3 @@
 # Mandalart
 
-CRA, node-sass, jo-tai
+CRA, node-sass, jo-tai, html2canvas, file-saver
