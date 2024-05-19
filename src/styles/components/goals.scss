@@ -8,29 +8,12 @@
 }
 
 .center {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
 .subGoal {
   font-size: 1rem;
-}
-
-.goal {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  resize: none;
-  border: none;
-  text-align: center;
-
-  width: 4.3rem;
-  height: 4.3rem;
-  padding: 1rem;
-}
-
-.goal:focus {
-  outline: 0;
 }
 
 .first-first,
@@ -60,4 +43,22 @@
 .second-second {
   color: black;
   font-size: 1.3rem;
+}
+
+.goalText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: none;
+  border: none;
+  text-align: center;
+
+  width: 4.3rem;
+  height: 4.3rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.goalText:focus {
+  outline: 0;
 }
